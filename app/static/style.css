@@ -1,0 +1,18 @@
+.chat {
+  height: 60vh;
+  overflow: auto;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+}
+.msg { margin-bottom: 12px; }
+.msg .role { font-weight: 600; margin-right: 6px; }
+.msg.user { color: #111827; }
+.msg.assistant { color: #0f766e; }
+
+form { display: flex; gap: 8px; margin-top: 8px; }
+input[type="text"] { flex: 1; }
+
+
+

@@ -1,0 +1,42 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache/bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+.env.*
+
+# Editors/IDE
+.vscode/
+.idea/
+
+# Test/cache/coverage
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# App data (vector store and uploaded docs)
+storage/documents/
+storage/vectors/
+
+# Node modules (if added later)
+node_modules/
